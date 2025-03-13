@@ -5,7 +5,7 @@ import BlogCard from './BlogCard'
 
 const Blog = () => {
   return (
-    <div className='pt-16 pb-16 bg-gray-100'>
+    <div id='blog' className='pt-16 pb-16 bg-gray-100'>
         <div className='w-[80%] mx-auto'>
             <Heading heading='Our Blogs'/>
 

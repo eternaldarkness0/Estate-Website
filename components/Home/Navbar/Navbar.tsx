@@ -29,7 +29,7 @@ const Navbar = ({ openNav } : Props) => {
     }, []);
 
   return (
-    <div className={`${navbarBg ? 'bg-black' : ''} fixed h-[10vh] z-[100] w-full transition-all duration-200`}>
+    <div className={`${navbarBg ? 'bg-black' : ''} fixed h-[10vh] z-[10000] w-full transition-all duration-200`}>
         <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
 
             <div className='flex items-center space-x-2'>

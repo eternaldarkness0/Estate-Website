@@ -5,7 +5,7 @@ import BuildingCard from './BuildingCard'
 
 const Building = () => {
   return (
-    <div className='pt-16 pb-16 bg-gray-100'>
+    <div id='listing' className='pt-16 pb-16 bg-gray-100'>
         <div className='w-[80%] mx-auto'>
             <Heading heading='Building Feature'/>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-center mt-14'>

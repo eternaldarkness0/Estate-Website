@@ -8,3 +8,7 @@
         @apply text-base text-white hover:text-rose-500 hover:underline cursor-pointer opacity-80 mb-3 w-fit
     }
 }
+
+html, body {
+    scroll-behavior: smooth;
+}

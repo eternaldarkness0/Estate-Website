@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='relative w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden bg-[url("/images/hero.jpg")] bg-cover bg-center'>
+    <div id='hero' className='relative w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden bg-[url("/images/hero.jpg")] bg-cover bg-center'>
 
         <div className='absolute bg-black inset-0 opacity-70'></div>
 
