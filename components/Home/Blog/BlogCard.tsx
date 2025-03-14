@@ -16,7 +16,7 @@ type blogData = {
 
 const BlogCard = ({ item }: blogData) => {
   return (
-    <div className='bg-white rounded-md overflow-hidden'>
+    <div className='bg-white rounded-md overflow-hidden hover:scale-105 transition-all duration-300'>
 
         <Image src={item.image} alt={item.title} width={300} height={300} className='w-full'/>
 
